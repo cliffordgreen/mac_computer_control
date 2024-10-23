@@ -1,0 +1,56 @@
+mac_computer_control/
+│
+├── README.md
+├── requirements.txt
+├── setup.py
+├── .env.example
+├── .gitignore
+│
+├── src/
+│   ├── __init__.py
+│   │
+│   ├── agent/
+│   │   ├── __init__.py
+│   │   ├── enhanced_agent.py
+│   │   └── mac_shortcuts.py
+│   │
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   ├── computer.py
+│   │   └── results.py
+│   │
+│   ├── workflows/
+│   │   ├── __init__.py
+│   │   ├── manager.py
+│   │   └── models.py
+│   │
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── app.py
+│   │   ├── components/
+│   │   │   ├── __init__.py
+│   │   │   ├── chat.py
+│   │   │   └── workflow_sidebar.py
+│   │   └── styles/
+│   │       └── main.css
+│   │
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── logger.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py
+│   ├── test_agent.py
+│   ├── test_tools.py
+│   └── test_workflows.py
+│
+├── data/
+│   └── workflows/
+│       └── .gitkeep
+│
+└── scripts/
+    ├── setup.sh
+    └── run.sh
